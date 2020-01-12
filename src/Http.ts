@@ -70,7 +70,7 @@ function axiosResponseToResponse(res: AxiosResponse): Response<string> {
       message: res.statusText
     },
     headers: res.headers,
-    body: res.request.responseText
+    body: res.data
   }
 }
 
