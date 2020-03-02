@@ -12,9 +12,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "axios": "^0.19.1",
-    "fp-ts": "^2.4.0",
-    "io-ts": "^2.0.4"
+    "axios": "^0.19.2",
+    "fluture": "^12.2.0",
+    "fp-ts": "^2.5.3",
+    "fp-ts-fluture": "^0.6.4",
+    "io-ts": "^2.1.2"
   },
   "devDependencies": {
     "@types/node": "^13.1.5",
