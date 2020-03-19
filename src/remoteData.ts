@@ -1,11 +1,11 @@
-import { fromEither } from "@devexperts/remote-data-ts";
-import * as T from "fp-ts/lib/Task";
+import { fromEither, RemoteData } from "@devexperts/remote-data-ts";
 import { flow } from "fp-ts/lib/function";
-import { toTaskEither } from "./taskEither";
 import { Task } from "fp-ts/lib/Task";
+import * as T from "fp-ts/lib/Task";
+
 import { Request } from "./client";
-import { RemoteData } from "@devexperts/remote-data-ts";
 import { HttpError } from "./error";
+import { toTaskEither } from "./taskEither";
 
 export const toRemoteData: <A>(
   req: Request<A>
