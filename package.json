@@ -12,6 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@devexperts/remote-data-ts": "^2.0.3",
     "axios": "^0.19.2",
     "fluture": "^12.2.0",
     "fp-ts": "^2.5.3",
